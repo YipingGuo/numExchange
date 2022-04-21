@@ -1,4 +1,3 @@
-count = 0
-for i in range(0,3):
-    count += 1
-print(i)
+a = 1; b = 2
+a, b = b, a
+print(f"a = {a}  b = {b}")
